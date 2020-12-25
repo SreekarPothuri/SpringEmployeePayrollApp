@@ -56,7 +56,7 @@ public @Data class EmployeePayrollData {
 	}
 
 	
-	private void updateEmployeePayrollData(EmployeePayrollDTO empPayrollDTO) {
+	public void updateEmployeePayrollData(EmployeePayrollDTO empPayrollDTO) {
 		this.name = empPayrollDTO.name;
 		this.salary = empPayrollDTO.salary;
 		this.gender = empPayrollDTO.gender;
